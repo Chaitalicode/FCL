@@ -1,0 +1,15 @@
+{
+    "employee":[{
+        "id":"101",
+        "name":"chaitali"
+    },
+    {
+        "id":"102",
+        "name":"priyanka"
+    },
+    {
+        "id":"103",
+        "name":"shruthi"
+    }
+]
+}

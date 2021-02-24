@@ -1,0 +1,23 @@
+<mvc:View
+	controllerName="splitapp.controller.Master"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	displayBlock="true"
+	height="100%"
+	busyIndicatorDelay="0"
+>
+<Page title="Master">
+<content>
+  <List items="{/employee}">
+      <items>
+	  <ObjectListItem title="{name}" press="onOLItm" type="Active">
+		
+	  </ObjectListItem> 
+	  </items>
+  </List>
+  <Button text="Three" press="onClm">
+	
+  </Button>
+</content>
+</Page>
+</mvc:View>

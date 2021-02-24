@@ -1,0 +1,26 @@
+<mvc:View
+    controllerName="splitapp.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:f="sap.f"
+    xmlns:l="sap.ui.layout"
+>
+	<!-- <SplitApp id="idSplit"></SplitApp> -->
+<App id="idApp">
+<pages>
+<Page>
+ <content>    
+    <l:FixFlex>
+							<l:fixContent>
+								<Text text="Hello"/>
+							</l:fixContent>
+							<l:flexContent>
+								<f:FlexibleColumnLayout id="flexibleColumnLayout"  backgroundDesign="Translucent" layout="{FlexibleColumnUIState>/layout}" ></f:FlexibleColumnLayout>
+							</l:flexContent>
+						</l:FixFlex>
+                         </content>
+</Page>
+</pages>
+</App>
+</mvc:View>
